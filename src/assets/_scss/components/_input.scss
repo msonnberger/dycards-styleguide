@@ -1,0 +1,21 @@
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: 3px solid $indigo-300;
+  border-radius: 1.5rem;
+  max-width: 20rem;
+  padding: .8rem 1.2rem;
+  margin: 1rem 0 0.5rem 0;
+
+  &:focus {
+    outline: none;
+    border-color: $indigo-500;
+  }
+}
+
+label {
+  margin-left: 1rem;
+}

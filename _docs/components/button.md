@@ -1,11 +1,10 @@
 ---
 title: Button
-info: Use buttons to signal actions.
-nav: true
+info: Buttons werden für User-Interaction verwendet.
 ---
 
-A button can contain text. Although any tag can be used for a button, it will only be keyboard focusable if you use a `button` tag or you add the property `tabindex="0"`.
-
 {% include pattern_block.html url='/src/patterns/components/button/default_button.html' %}
+Primary Buttons werden für den gewünschten, primären Userflow verwendet. Secondary Buttons hingegen für Alternativen.
 
 {% include pattern_block.html url='/src/patterns/components/button/circle_button.html' %}
+Circle Buttons sind in erster Linie auf Cards zu verwenden. Sie signalisieren Interaktionen, die der User auf der Card durchführen kann.
