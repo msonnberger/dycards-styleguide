@@ -1,3 +1,7 @@
+:root {
+  font-size: 62.5%;
+}
+
 h1,h2,h3,h4,h5,h6,
 ul,ol,dd,
 p,figure,
@@ -7,31 +11,40 @@ table,fieldset,hr {
 
 .headline,
 h1, h2, h3, h4, h5, h6 {
-  line-height: $headline-line-height;
-  color: $headline-font-color;
-  font-family: $robotoslab;
+  color: $black;
+  font-family: $inter;
   margin-top: 0;
 }
 
 h1 {
-  font-size: $typo_lion;
+  font-size: 2.5rem;
   margin-bottom: $base-pad;
 }
 
 h2 {
-  font-size: $typo_panther;
+  font-size: 1.8rem;
   margin-bottom: $base-pad;
 }
 
 h3 {
-  font-size: $typo_leopard;
+  font-size: 2.4rem;
   margin-bottom: $base-pad;
 }
 
-h4 {
-  font-family: $roboto;
-  font-size: $typo_cat;
-  margin-bottom: $base-pad;
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+body {
+  font-size: 1.8rem;
+}
+
+label {
+  font-size: 1.4rem;
+}
+
+.question-type {
+  font-size: 1.4rem;
   text-transform: uppercase;
-  color: $pink;
+  letter-spacing: 6%;
 }

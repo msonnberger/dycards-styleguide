@@ -4,25 +4,19 @@ $tablet-screen: 768px;
 $mobile-screen: 480px;
 
 // Type Systems
-$roboto: 'Roboto', sans-serif;
-$robotoslab: 'Roboto Slab', serif;
-
-
-// Font Size
-$typo_lion: 2.6rem;
-$typo_panther: 1.8rem;
-$typo_leopard: 1.3rem; 
-$typo_cat: 1rem; 
-$typo_kitten: .8rem;
+$inter: 'Inter', sans-serif;
 
 // Primary Colors
-$white: #ffffff;
-$black: #222222;
-$pink: hotpink;
+$indigo-400: #818CF8;
+$orange-500: #FFA360;
 
 // Accent Colors
-$blue: lightskyblue;
-$green: lightseagreen;
+$indigo-500: #6366F1;
+$indigo-300: #A5B4FC;
+$green: #82E0AA;
+$red: #F1948A;
+$white: #FFF;
+$black: #000;
 
 // Base Fonts
 $base-font-size: 18px;

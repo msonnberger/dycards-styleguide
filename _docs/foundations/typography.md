@@ -1,11 +1,9 @@
 ---
 title: Typography
-info: Roboto and Roboto Slab fonts have been selected as the primary fonts for this system.
+info: Inter has been selected as the primary fonts for this system.
 ---
 
-{% include pattern_block.html url='/src/patterns/foundations/typography/roboto.html' %}
-
-{% include pattern_block.html url='/src/patterns/foundations/typography/roboto-slab.html' %}
+{% include pattern_block.html url='/src/patterns/foundations/typography/inter.html' %}
 
 ---
 
@@ -15,6 +13,6 @@ A `sans-serif` fallback font is used incase [@font-face](https://www.w3schools.c
 
 ---
 
-## Copryright 
+## Copyright 
 
-Roboto and Roboto Slab are free software. For more details, please visit Google Fonts official website at [https://fonts.google.com/](https://fonts.google.com/)
+These fonts are licensed under the [Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).

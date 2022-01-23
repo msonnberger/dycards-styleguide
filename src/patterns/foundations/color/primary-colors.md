@@ -4,14 +4,10 @@ styles: base/variables.scss
 maturity: ready
 control: exclude
 colors: 
-  - name: $white
-    hex: '#ffffff'
-    rgb: rgb(255,255,255)
-  - name: $black
-    hex: '#222222'
-    rgb: rgb(0,0,0)
-  - name: $pink
-    hex: 'hotpink' 
+  - name: $indigo-400
+    hex: '#818CF8'
+  - name: $orange-500
+    hex: '#FFA360'
 ---
 <style>
 .set {
@@ -44,7 +40,6 @@ p {
     <div class="color" style="background:{{ item.hex }}"></div> 
     <p>{{ item.name }}</p>
     {% if item.hex %}<p>{{ item.hex }}</p>{% endif %}
-    {% if item.rgb %}<p>{{ item.rgb }}</p>{% endif %}
   </li>
 {% endfor %}
 </ul>
