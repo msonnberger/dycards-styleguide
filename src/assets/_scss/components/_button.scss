@@ -1,0 +1,57 @@
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  border-radius: 1.4rem;
+  margin: 1rem;
+  transition: all 200ms ease-in-out;
+
+  /* &:hover {
+    transform: scale(1.1);
+  } */
+}
+
+.button.primary {
+  color: $white;
+  background-color: $indigo-500;
+  border: 2px solid $indigo-500;
+
+  &:hover {
+    background-color: #312E81;
+    border-color: #312E81;
+  }
+}
+
+.button.secondary {
+  color: $indigo-500;
+  border: 2px solid $indigo-500;
+
+  &:hover {
+    color: #3730A3;
+    border-color: #3730A3;
+  }
+}
+
+.button.circle {
+  border-radius: 50%;
+  padding: 1.2rem;
+}
+
+.button.circle.light {
+  background-color: #C7D2FE;
+}
+
+.button.circle.green {
+  background-color: $green;
+}
+
+.button.circle.red {
+  background-color: $red;
+}
+
+.button.circle.white {
+  background-color: $white;
+  border: 1px solid $black;
+}

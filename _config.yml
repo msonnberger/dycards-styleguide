@@ -22,7 +22,7 @@ destination: _site          ## Output folder
 ## Style Guide Shell Settings
 
 ## These settings are used in when generating the style guide shell
-sg_title: Jekyll Style Guide
+sg_title: Dycards Style Guide
 sg_version: 3.0
 sg_keywords: jekyll, style guide, playbook, design, code 
 sg_author: Matthew Elsom
@@ -30,7 +30,7 @@ sg_description: This Jekyll Style Guide maintains design and code standards and 
 sg_language: en
 sg_styles: /styleguide/css/styleguide.css
 sg_favicon: /styleguide/branding/favicon.ico
-sg_ga: UA-19247091-8      ## Analytics Tracking
+sg_ga: ## Analytics Tracking
 
 ## Generates Style Guide Shell Styles
 ## Enable to change the style guide shell stylesheet.
