@@ -4,10 +4,18 @@ styles: base/variables.scss
 maturity: ready
 control: exclude
 colors: 
-  - name: $indigo-500
-    hex: '#6366F1'  
+  - name: $indigo-200
+    hex: '#C7D2FE'
   - name: $indogo-300
     hex: '#A5B4FC'
+  - name: $indigo-500
+    hex: '#6366F1'
+  - name: $indigo-700
+    hex: '#4338CA'
+  - name: $indigo-800
+    hex: '#3730A3'
+  - name: $indigo-900
+    hex: '#312E81'
   - name: $green
     hex: '#82E0AA'
   - name: $red
@@ -48,7 +56,6 @@ p {
     <div class="color" style="background:{{ item.hex }}"></div> 
     <p>{{ item.name }}</p>
     {% if item.hex %}<p>{{ item.hex }}</p>{% endif %}
-    {% if item.rgb %}<p>{{ item.rgb }}</p>{% endif %}
   </li>
 {% endfor %}
 </ul>

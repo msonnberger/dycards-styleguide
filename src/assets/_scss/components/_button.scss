@@ -19,8 +19,8 @@
   border: 2px solid $indigo-500;
 
   &:hover {
-    background-color: #312E81;
-    border-color: #312E81;
+    background-color: $indigo-900;
+    border-color: $indigo-900;
   }
 }
 
@@ -29,8 +29,8 @@
   border: 2px solid $indigo-500;
 
   &:hover {
-    color: #3730A3;
-    border-color: #3730A3;
+    color: $indigo-800;
+    border-color: $indigo-800;
   }
 }
 
@@ -42,7 +42,7 @@
 }
 
 .button.circle.light {
-  background-color: #C7D2FE;
+  background-color: $indigo-200;
 }
 
 .button.circle.green {
